@@ -1,0 +1,22 @@
+{
+  "name": "weekexam",
+  "version": "1.0.0",
+  "description": "weekexam",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/q1463303508/weekexam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/q1463303508/weekexam/issues"
+  },
+  "homepage": "https://github.com/q1463303508/weekexam#readme",
+  "devDependencies": {
+    "gulp-babel": "^7.0.1"
+  }
+}
