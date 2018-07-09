@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-size: .32rem;
+    background: #eee;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: .8rem;
+    line-height: .8rem;
+    background: white;
+    .logo {
+        color: #df354a;
+    }
+    span {
+        // padding: 0 .2rem;
+    }
+}
+
+.section {
+    margin-top: .1rem;
+    width: 100%;
+    .product {
+        width: 100%;
+        display: flex;
+        background: white;
+        padding: .1rem 0;
+        margin-bottom: .3rem;
+        dl {
+            margin-left: 2%;
+            width: 22.5%;
+            background: #f8f8f8;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding: .2rem 0;
+            dd {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    .main {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        dl {
+            width: 24%;
+            background: white;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding: .2rem 0;
+        }
+    }
+    .banner {
+        width: 100%;
+        display: flex;
+        margin: .06rem 0;
+        justify-content: space-between;
+        dl {
+            width: 24%;
+            background: white;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding: .2rem 0;
+        }
+        div {
+            width: 49%;
+            background: white;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .bgp {
+        width: 100%;
+        margin: 0 auto;
+        padding: .2rem 0;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    background: white;
+    dl {
+        width: 25%;
+        background: white;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+.active {
+    color: #df3448;
+}
